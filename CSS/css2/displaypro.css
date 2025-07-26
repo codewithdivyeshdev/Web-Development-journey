@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 2px ;
+    padding: 2px;
+    /* box sizing border use karo tyare content srinke thay pan border size ma kay farak no pade
+ */
+ }
+.container2{
+     border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+    height: 200px;
+    width: 300px;
+  
+
+}
+#spam{
+  width: 400px;
+   height: 200px;
+  background-color: yellow;
+display: inline-block;
+}
+#spam2{
+     height: 200px;/*  if we give display property to block value than tag will be work as block element and if you set as inline than tag will work as inline element this is called display properties and one more property exist it combination of both of this inline block and this work as you add custom width or height and work as inline  */
+    width: 400px;
+    background-color: tomato;
+     display: inline-block ;
+}
