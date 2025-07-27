@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: violet;
+    border: solid black 3px;
+    height: 300px;
+}
+.box{
+    background-color: turquoise;
+    width: 50%;
+    height: 300px;
+    border: solid black 3px;
+
+}
+.container2{
+    border: solid black 3px;
+    height: 50vh;
+    width: 50vw;
+    background-color: beige;
+}
+.box2{
+    font-size: 1em;
+    width: 50%;
+    height: 20em;
+  background-color: yellowgreen;
+}
+.container3{
+    border: solid black 4px;
+    font-size: 2rem;
+    
+}
