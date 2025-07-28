@@ -1,0 +1,11 @@
+#photo1{
+    height: 350px;
+    width: 350px;
+    float: right;
+}
+#photo2{
+    height: 350px;
+    width: 350px;
+    float: right;
+    clear: right;
+}
