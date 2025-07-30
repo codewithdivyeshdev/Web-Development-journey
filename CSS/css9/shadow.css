@@ -1,0 +1,33 @@
+:root{
+    --primary-color:blue;
+    --custom-width:300px
+}
+.container {
+  background-color: beige;
+  height: 650px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+.box {
+  background-color: aquamarine;
+  width: var(--custom-width);
+  height: 300px;
+  margin: 2px;
+  padding: 3px;
+  /* box-shadow: -20px 15px rgb(39, 159, 39); */
+  /* box-shadow: 10px 10px 10px cornflowerblue; */
+  /* box-shadow: 10px 10px 10px 1px cornflowerblue;
+   */
+  /* box-shadow: inset 10px 10px 10px 1px cornflowerblue; */
+  /* box-shadow: 20px 20px red 10px 10px blue; */
+    box-shadow: 10px 10px 1px var(--primary-color);
+}
+#head1{
+   text-shadow:2px 3px 2px white; 
+}
