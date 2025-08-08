@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: royalblue;
+    border: 3px solid black;
+    margin: 10px;
+    animation-name: movemen;
+
+}
+@keyframes movement {
+    from{
+
+    }
+    to{
+        
+    }
+    
+}
