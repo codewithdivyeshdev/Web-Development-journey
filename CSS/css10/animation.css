@@ -9,15 +9,24 @@
     background-color: royalblue;
     border: 3px solid black;
     margin: 10px;
-    animation-name: movemen;
-
+    position: relative;
+    animation-name: rightmovement;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
 }
-@keyframes movement {
+@keyframes rightmovement{
     from{
-
+     top: 0;
+     left: 0;
     }
     to{
-        
+      top: 0;
+      left: 1200;
     }
     
+}
+.container{
+    background-color: violet;
+    border: 2px solid blue;
 }
